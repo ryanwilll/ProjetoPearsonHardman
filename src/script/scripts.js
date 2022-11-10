@@ -10,6 +10,10 @@ const allLinks = [...desktopLinks, ...mobileLinks];
 const slides = document.querySelectorAll(".banner");
 const dots = document.querySelectorAll(".dot");
 
+const submitBtn = document.querySelector(".submitBtn");
+const formControl = document.querySelector(".form-control");
+const sectionThanks = document.querySelector(".section-thanks");
+
 let slideIndex = 0;
 
 function smoothScroll(e) {
