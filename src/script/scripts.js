@@ -49,7 +49,7 @@ function showSlides() {
   slides[slideIndex - 1].classList.add("active");
   dots[slideIndex - 1].classList.add("active");
 
-  setTimeout(showSlides, 3000);
+  setTimeout(showSlides, 5000);
 }
 
 [menuBtn, closeMenuBtn].forEach((botao) => {
